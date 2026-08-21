@@ -1,0 +1,16 @@
+# 内部工作记忆（含个人决策与链接，不进公开仓库）
+.workbuddy/memory/
+
+# 样例 HTML 报告含本机真实路径（用户名/目录结构），公开仓库排除
+docs/samples/*.html
+.workbuddy/skills/clean-computer/docs/samples/*.html
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# 本机清理数据（用户环境，不提交）
+.clean-computer/
